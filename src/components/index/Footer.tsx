@@ -5,7 +5,9 @@ export default function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
           {/* Company Info */}
           <div>
-            <h1 className="text-2xl cursor-pointer font-bold mb-4">SILA's HUB</h1>
+            <a href="#hero" className="text-2xl cursor-pointer font-bold mb-4">
+              SILA's HUB
+            </a>
             <p className="text-gray-400  mb-4">
               Empowering businesses through innovative technology solutions and
               digital transformation.
@@ -18,7 +20,7 @@ export default function Footer() {
             <ul className="space-y-2">
               <li>
                 <a
-                  href="#"
+                  href="#about"
                   className="text-gray-400 hover:text-white transition-colors"
                 >
                   About Us
@@ -26,7 +28,7 @@ export default function Footer() {
               </li>
               <li>
                 <a
-                  href="#"
+                  href="#services"
                   className="text-gray-400 hover:text-white transition-colors"
                 >
                   Services
@@ -34,7 +36,7 @@ export default function Footer() {
               </li>
               <li>
                 <a
-                  href="#"
+                  href="#hero"
                   className="text-gray-400 hover:text-white transition-colors"
                 >
                   Portfolio
@@ -42,7 +44,7 @@ export default function Footer() {
               </li>
               <li>
                 <a
-                  href="#"
+                  href="#contact"
                   className="text-gray-400 hover:text-white transition-colors"
                 >
                   Contact
@@ -57,7 +59,7 @@ export default function Footer() {
             <ul className="space-y-2">
               <li>
                 <a
-                  href="#"
+                  href="#projects"
                   className="text-gray-400 hover:text-white transition-colors"
                 >
                   Web Development
@@ -65,7 +67,7 @@ export default function Footer() {
               </li>
               <li>
                 <a
-                  href="#"
+                  href="#projects"
                   className="text-gray-400 hover:text-white transition-colors"
                 >
                   Mobile Apps
@@ -73,7 +75,7 @@ export default function Footer() {
               </li>
               <li>
                 <a
-                  href="#"
+                  href="#projects"
                   className="text-gray-400 hover:text-white transition-colors"
                 >
                   Cloud Solutions
@@ -81,7 +83,7 @@ export default function Footer() {
               </li>
               <li>
                 <a
-                  href="#"
+                  href="#projects"
                   className="text-gray-400 hover:text-white transition-colors"
                 >
                   IT Consulting
@@ -96,21 +98,6 @@ export default function Footer() {
             <div className="space-y-2 text-gray-400">
               <p>Email: sylvestersila6@gmail.com</p>
               <p>Phone: +2547 123 456 78</p>
-              <div className="flex space-x-4 mt-4">
-                {/* Social Media Icons */}
-                <a href="#" className="hover:text-white transition-colors">
-                  <i className="fab fa-facebook-f"></i>
-                </a>
-                <a href="#" className="hover:text-white transition-colors">
-                  <i className="fab fa-twitter"></i>
-                </a>
-                <a href="#" className="hover:text-white transition-colors">
-                  <i className="fab fa-linkedin-in"></i>
-                </a>
-                <a href="#" className="hover:text-white transition-colors">
-                  <i className="fab fa-instagram"></i>
-                </a>
-              </div>
             </div>
           </div>
         </div>
