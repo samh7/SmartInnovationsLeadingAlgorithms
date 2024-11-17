@@ -67,7 +67,7 @@ export default function Hero() {
 
         {/* Stats Section */}
         <div
-          className="bg-gradient-to-r from-[#e4cdea] via-[#a03684] to-[#6431ab]
+          className="bg-gradient-to-r  from-[#a03684] to-[#6431ab]
         animate-gradient
         bg-clip-text text-transparent mt-12 md:mt-16  grid grid-cols-2 lg:grid-cols-4 gap-6 lg:gap-8"
         >
