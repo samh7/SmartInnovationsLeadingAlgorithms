@@ -1,11 +1,17 @@
 import heroImage from "../../assets/hero-img.svg";
 export default function Hero() {
   return (
-    <div id="hero" className="bg-black text-white">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12 md:py-24">
-        <div className="flex flex-col lg:flex-row items-center justify-between gap-8 lg:gap-12">
-          {/* Text Content */}
-          <div className="flex-1 text-center lg:text-left">
+    
+    // bg-gradient-to-t  from-[#6431ab] via-[black] to-[black]  
+    // bg-black text-white
+    <div
+      id="hero"
+      className=""
+    >
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-6  md:py-12">
+        <div className="flex flex-col lg:flex-row  justify-between gap-8 lg:gap-12">
+          {/* left section - text content */}
+          <div className="flex-1  text-center lg:text-left">
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold leading-tight mb-6">
               Innovating the Future
               <span className=""> of Technology</span>
@@ -24,7 +30,7 @@ export default function Hero() {
               </a>
               <a
                 href="#about"
-                className="px-8 py-4 border border-white text-white rounded-lg font-semibold hover:bg-white hover:text-black transition duration-300 text-center"
+                className="px-8 py-4 border border-gray-600 white text-gray-600 rounded-lg font-semibold hover:bg-white hover:text-black transition duration-300 text-center"
               >
                 Learn More
               </a>
@@ -33,12 +39,16 @@ export default function Hero() {
 
           <div>{/* <img src={heroImage} alt="" /> */}</div>
           {/* Hero Image + DOTS */}
-          <div className="flex-1 w-full max-w-[500px] mx-auto lg:mx-0">
-            <div className="relative w-full h-[400px] sm:h-[500px] rounded-lg overflow-hidden">
+          <div className=" flex-1 w-full max-w-[500px] mx-auto lg:mx-0">
+            <div className="relative w-full h-[400px] sm:h-[500px] overflow-hidden">
               <div className="absolute inset-0 opacity-20">
                 <div className="absolute inset-0 sm:h-[450px] bg-[url('data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNDAiIGhlaWdodD0iNDAiIHZpZXdCb3g9IjAgMCA0MCA0MCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48ZyBmaWxsPSJub25lIiBmaWxsLXJ1bGU9ImV2ZW5vZGQiPjxjaXJjbGUgY3g9IjIwIiBjeT0iMjAiIHI9IjIiIHN0cm9rZT0iI2ZmZiIgc3Ryb2tlLXdpZHRoPSIxIi8+PC9nPjwvc3ZnPg==')]"></div>
               </div>
-              <img className="relative z-10 hero-pulse" src={heroImage} alt="" />
+              <img
+                className="relative z-10 hero-pulse"
+                src={heroImage}
+                alt=""
+              />
 
               {/* Animated gradient background */}
               <div className="absolute inset-0 bg-gradient-to-r">

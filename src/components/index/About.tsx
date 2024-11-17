@@ -7,7 +7,7 @@ export default function About() {
       className="
       relative
     bg-gradient-to-t from-[black] via-[black]  to-[#6431ab]
-    py-16 bg-white"
+    py-16 "
     >
       <div className="container mx-auto px-4">
         <motion.div
@@ -44,7 +44,7 @@ export default function About() {
                   <p className="text-gray-400">Projects Completed</p>
                 </div>
                 <div className="text-center">
-                  <h3 className="text-4xl font-bold text-white mb-2">10+</h3>
+                  <h3 className="text-4xl font-bold text-white mb-2">40+</h3>
                   <p className="text-gray-400">Happy Clients</p>
                 </div>
               </div>
@@ -52,7 +52,7 @@ export default function About() {
           </div>
 
           <div className="mt-16 grid md:grid-cols-3 gap-8">
-            <div className="p-6 bg-black rounded-lg">
+            <div className="p-6 bg-black rounded-[20%] md:border-none border-t-2 border-gray-200/30">
               <div
                 className="bg-gradient-to-r from-[#e4cdea] via-[#a03684] to-[#6431ab]
               bg-clip-text text-transparent

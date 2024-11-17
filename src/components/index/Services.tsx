@@ -13,7 +13,7 @@ const ServiceCard: React.FC<ServiceCardProps> = ({
 }) => {
   return (
     <div className="p-6  w-[200px] h-[270px] mb-[15px] backdrop-blur-sm  flex flex-col items-start justify-start rounded-2xl">
-      <div className="text-primary text-3xl mb-4 text-[#a03684]">{icon}</div>
+      <div className="text-3xl mb-4 text-[#6431ab]">{icon}</div>
       <h3 className="text-base font-bold mb-3 text-white">{title}</h3>
       <p className="text-[14px] text-gray-400 leading-relaxed">{description}</p>
     </div>

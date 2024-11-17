@@ -4,12 +4,12 @@ export default function NavBar() {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
 
   return (
-    <nav className="bg-black text-white">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <nav className="bg-black text-white py-14 px-7">
+      <div className="max-w-7xl bg-gray-500/30 rounded-md mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-16">
           {/* NAME */}
           <div className="flex-shrink-0 flex items-center">
-            <span className="ml-2 text-2xl hover:scale-105 cursor-pointer transition-all duration-300  ease-in-out font-bold text-white">
+            <span className="ml-2 text-3xl md:text-4xl hover:scale-105 cursor-pointer transition-all duration-300  ease-in-out font-bold text-white">
               SILA's HUB
             </span>
           </div>
